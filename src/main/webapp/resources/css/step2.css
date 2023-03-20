@@ -1,0 +1,181 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	background: #fff;
+}
+
+#header {
+	margin-top : 50px;
+	border-radius: 20px 80px 80px 80px;
+	width: 305px;
+	height: 200px;
+	text-align: center;
+	font-size: 40px;
+    font-weight: 700; 
+	display: inline-block;
+	background-color: #EDA884;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.title {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.fontcolor {
+	color: white;
+}
+
+.content {
+	color: grey;
+}
+
+.vButton{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+.left{
+	position:absolute; left:50%; 
+	margin: 10px 10;
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-right: 15px solid #EDA884;
+}
+.right{
+	position:absolute; left:50%; 
+	margin: 10px 10;
+	width: 0;
+	height: 0;
+	border-top: 15px solid transparent;
+	border-bottom: 15px solid transparent;
+	border-left: 15px solid #EDA884;
+}
+
+.buttonS {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 305px;
+	height: 50px;
+	border:3px solid rgba(255,255,255,1);
+	border-radius: 40px;	
+	outline:none;
+	background-color: #EDA884;
+	color: white;
+	font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttonX {
+	margin: 5px 0;
+	width: 80px;
+	height: 40px;
+	border:1.5px solid grey; border-radius:0.5rem;
+	outline:none;
+	background-color: #fff;
+	color: #EDA884;
+	font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.buttonZ {
+	display: inline-flex;
+	position: relative;
+	margin: 5px;
+	width: 120px;
+	height: 70px;
+	border: 1.5px solid grey; border-radius:1rem;
+	outline:none;
+	background-color: #fff;
+	color: #EDA884;
+	font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.Z {
+	display: inline-flex;
+}
+
+.buttonS:hover, .buttonX:hover, .buttonZ:hover {
+  border-color: #EDA884;
+  color: #EDA884;
+  background-color: #fff;
+}
+
+.button-active {
+  border-color: #fff;
+  color: #fff;
+  background-color: #EDA884;
+}
+
+.button-reactive {
+  border-color: grey;
+  color: #EDA884;
+  background-color: #fff;
+}
+
+.hidden {
+	margin-left: 5px;
+	width: 100px;
+	border:3px solid rgba(255,255,255,1);
+	border-radius: 10px;	
+	outline:none;
+	background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1px 6px;
+}
+
+#menu {
+	width: 100%;
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box {
+	display: inline-block;
+	width: 600px;
+}
+
+.textbox{
+	width: 300px;
+	height: 30px;
+	border:1px solid grey; border-radius:0.5rem;	outline:none;
+	margin: 5px 0;
+	font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 300; 
+}
+
+.job {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size: 18px;
+    font-weight: 400;
+}
+
+#headerBox{
+	width: 100%; height: 100vh;
+	text-align: center;
+}

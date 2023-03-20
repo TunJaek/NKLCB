@@ -1,0 +1,56 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+#lightBox{
+	position:absolute; top:55%; left:50%; 
+	width:20vw; height:30vh; 
+	transform:translate(-50%, -50%);
+	background-color : #fff;
+	border-radius:0.5rem;
+	font-family: 'Noto Sans KR', sans-serif;	
+	font-size: 1.5vw;
+	text-align:center;
+	box-shadow: 0px 0px 20px gray;
+}
+
+#messageZone{
+	position:relative;
+	width:100%; height:60%;
+	font-weight:300;
+}
+#messageContent{
+	position:relative;top:51.5%;left:50%;
+	width:97%; height:90%; 
+	transform:translate(-50%, -50%);
+	border-radius:0.5rem;
+	background-color:#fff;
+	font-weight: 300;
+	font-size: 20px;
+	font-family: 'Noto Sans KR', sans-serif;
+	line-height:20vh;
+}
+#messageAction{
+	position:relative;
+	width:100%; height:20%;
+	border-radius:0 0 0.5rem 0.5rem;
+	background-color:#fff;
+}
+.button	{
+	position:relative;top:90%;left:50%;
+	width:90%; height:75%;
+	line-height: 200%; 
+	transform:translate(-50%, -50%);
+	border-radius:40px; 
+	border: 0px;
+	background-color:#EDA884;
+	color:rgba(255, 255, 255, 1); 
+	font-family: 'Noto Sans KR', sans-serif;
+}
+.button:hover{
+	background-color: #fff;
+	cursor:pointer;
+	color:#EDA884;
+	border: 3px solid #EDA884;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
